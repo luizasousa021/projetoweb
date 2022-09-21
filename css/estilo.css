@@ -1,85 +1,60 @@
-#total{
-    width: 960px;
+div#total{
+    width: 95%;
+    max-width: 960px;
     height: auto;
-    margin: auto; /*centraliza a divisão na página*/
+    margin: auto;
+
 }
-
-#topo{
-    width: 960px;
+header#topo{
+    width: 100%;
     height: auto;
     float: left;
-    background-color: darkorange;
- }
 
- #logo{
-    width: 200px;
-    height: 60px;
-  /*margin-top:10px;
-        top rigth bottom left*/
-margin: 10px auto;
-background-color:black
- }
-
- #banner{
-    width: 960px;
-    height: 300px;
+}
+div#logo{
+    width: 280px;
+    height: 80px;
+    margin: 20px auto;
+    
+}
+nav#menu{
+    width: 100%;
+    height: 40px; /*altura*/
+    background-color: rgb(184, 130, 37);
     float: left;
-    background-image: url("../imagem/banner.jpg");
- }
-
- #menu{
-    width: 210px;
-    height: 265px;
-    float:left;
-    background-image: url(../imagem/menu.png);
-    padding-top: 35px;
- }
-
- #menu a{
+    text-align: center;
+    border-radius: 5px;
+}
+nav#menu a{
     color: aliceblue;
-    font-size: 25px;
+    font-weight: 200; /*negrito*/
+    text-align: center;
     text-decoration: none;
-    display: block;
-    text-transform: capitalize;
-    margin-bottom: 15px;
-    /*padding-left: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px*/
-    padding: 2px 0px 2px 8px;
- }
+    margin:0 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+nav#menu a:hover{
+    text-decoration: underline;
 
- #menua a:hover{
-    background-image: url(../imagem/menu.png);
-
- }
-
- #coneteudo{
-    width: 960px; /*largura*/
-    height: 25px; /*altura*/
-    float: left; /*alinhamento*/
-
- }
-
- .box{
-    width: 120px;
-    height: 90px;
+}
+article#conteudo{
+    width: 60%;
     float: left;
-    border: solid 10px #b27a00;
-    margin: 0px 10px 2px 10px; 
- }
 
- body{
-    background-image: url("../imagem/background.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: bottom center;
- }
+}
+#aside#coluna{
+    width: 35%;
+    float: right;
 
- h1{
-    background-image: url(../imagem/gradiente.png);
-    color: aliceblue;
-    padding: 2px 10px;
-    margin: 20px 0px;
-
-
- }
+}
+footer#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: rgb(14, 39, 79);
+    text-align: center;
+    font-style: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
