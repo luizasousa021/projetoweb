@@ -1,0 +1,89 @@
+div#total{
+    width: 95%;
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+
+}
+header#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+div#logo{
+    width: 280px;
+    height: 80px;
+    margin: 20px auto;
+    
+}
+nav#menu{
+    width: 100%;
+    height: 40px; /*altura*/
+    background-color: rgb(184, 130, 37);
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+nav#menu a{
+    color: aliceblue;
+    font-weight: 200; /*negrito*/
+    text-align: center;
+    text-decoration: none;
+    margin:0 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+nav#menu a:hover{
+    text-decoration: underline;
+
+}
+article#conteudo{
+    width: 60%;
+    float: left;
+
+}
+#aside#coluna{
+    width: 35%;
+    float: right;
+
+}
+footer#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: rgb(14, 39, 79);
+    text-align: center;
+    font-style: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+div#banner{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 2px;
+}
+
+div#banner img{
+    width: 100%;
+}
+
+div#anunciotablet{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(213, 146, 28);
+    color: rgb(16, 44, 129);
+    padding: 10px auto;
+    display: none; /*ocultar*/ 
+}
+
+/*Média query*/
+@media screen an (min :641px) and (max-width 768px){
+div#anunciotablet{
+    display: block; /*mostrar*/
+ }
+}
+    
