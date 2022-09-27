@@ -8,23 +8,46 @@
     width: 900px;
     margin: auto; /*centeralizar na página*/
 }
+
 #logotipo{
     width: 140px;
     height: 24px;
     float: left;
 }
+
 #menu{
     width: auto;
     height: auto;
     float: right;
     margin-top: 8px;
 }
+
 #menu a{
     color: aliceblue;
     font-size: 16px;
     text-decoration: none;
     margin-left: 50px;
 }
+
 #menu a:hover{
     text-decoration: underline;
+}
+
+.imghome{
+    float: left;
+    margin-top: 100px;
+}
+
+#conteudohome{
+    width: 545px;
+    float: right;
+    height: auto;
+    margin-top: 100px;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid;
 }
