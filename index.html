@@ -7,7 +7,7 @@
     <title>aula9</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
+<body id="body">
     <div id="topo">
         <div class="largura-site">
             <div id="logotipo">
@@ -15,10 +15,10 @@
                    alt="logotipo do site"/>
             </div><!--fecha logotipo-->
             <div id="menu">
-               <a href="#">Home</a>
-               <a href="#">Quem Somos</a>
-               <a href="#">Serviços</a>
-               <a href="#">Contato</a>
+               <a href="#body">Home</a>
+               <a href="#quemsomos">Quem Somos</a>
+               <a href="#servicos">Serviços</a>
+               <a href="#contato">Contato</a>
                </div><!--fecha menu-->
             </div><!--fecha largura Site-->
     </div><!--fecha o topo-->
@@ -38,7 +38,7 @@
         </div>
 
         </div><!--fwcha a divisão home-->   
-        <div class="conteudo" id="Quem Somos">
+        <div class="conteudo" id="quemsomos">
             <h1> Quem Somos</h1>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vel quod, hic debitis rerum atque, magni sunt soluta neque ab unde, numquam commodi esse.
              Non quaerat doloribus nostrum nemo fugiat.</p>
@@ -49,10 +49,49 @@
             alt="imagem de quem somos">
 
         </div>
-        <div class="conteudo" id="servisos"></div>
-        <div class="conteudo" id="contato"></div>
-        <div id="rodape"></div>
+        <div class="conteudo" id="servicos">
+           <h1> Nosso Serviços</h1>
+           <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam architecto id error tempore, facilis vero accusamus vel rerum animi eaque a harum eius voluptates perspiciatis laboriosam nobis libero atque obcaecati?</p>
+           </p>
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque possimus aspernatur, velit iusto sit, voluptas corporis inventore quia voluptate voluptatem, quod at id blanditiis? Quod saepe ipsam dignissimos voluptatum sapiente?</p>
+    
+        </ul>
+        <img src="imagem/destaqueservicos.jpg"
+         alt="imagem dos Servicos" class="imgright">
+        <ul>
+            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores nesciunt fugit eveniet illum!Error aperiam pariatur rem inventore repudiandae suscipit exercitationem corporis odio consequatur dolores. Reprehenderit placeat culpa illo!</p>
+            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem adipisci est voluptatem id cupiditate unde, iste expedita earum, accusamus praesentium maxime dolores libero quam eaque aspernatur nulla rem error quas!</p>
+            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aperiam cumque omnis accusantium quaerat distinctio, quidem facere tempore error! Eligendi obcaecati rerum animi officia vero, sit cupiditate recusandae perspiciatis minus!</p>
+        </ul>
 
-   </div>
+    </div>
+        <!--contato-->
+        <div class="conteudo" id="contato">
+            <h1>CONTATO</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ratione totam maxime, nemo nihil amet assumenda fuga atque, laudantium consequuntur, culpa aliquid sed molestiae labore nesciunt saepe sequi recusandae illum?</p>
+            </p>
+            <img src="imagem/destaquecontato.jpg" alt="imagem de pessoas" class="imgright">
+            <form action="#">
+                Nome:<br/>
+                <input type="text" placeholder="digitar o nome"><br/>
+                E-mail:<br/>
+                <input type="text"><br/>
+                Mensagem:<br/>
+                <textarea cols="10" rows="10">
+
+                </textarea>
+                <br/><br/>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+
+        <div id="rodape">
+        DENTCLEAN - Todos os diritos reservados.
+    </div>
+</div><!--fecha largura do site-->
 </body>
 </html>

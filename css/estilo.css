@@ -2,6 +2,7 @@
     width: 100%;
     background-color: rgb(28, 73, 157);
     height: 30px;
+    position: fixed;
 }
 
 .largura-site{
@@ -50,4 +51,59 @@
     height: auto;
     float: left;
     border-bottom: 1px solid;
+}
+
+#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    background-color: rgb(16, 74, 221);
+    color: rgb(247, 247, 249);
+    text-align: center;
+
+}
+
+.imgright{
+    float: right;
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+h1{
+    color: rgb(27, 64, 174);
+    font-size: 30px;
+}
+
+li{
+    margin-bottom: 15px;
+
+}
+ul{
+    color: rgb(4, 46, 125);
+    font-size: 14px;
+    list-style-type: square; /*alterar marcador*/
+    list-style-position: inside;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 25px;
+    background-color: rgb(216, 234, 250);
+    border: solid px;
+
+}
+textarea{
+    width: 400px;
+    height: 140px;
+    background-color: rgb(216, 234, 250);
+    border: solid 1px;
+    resize: none;
 }
