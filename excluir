@@ -1,0 +1,12 @@
+<?php
+// receber a id de quem será excluido
+$id = $_GET["id"];
+
+// abrir a conexão com a banco
+include_once './conexão.php';
+// montar a instrução de ir ao banco
+$sql = "delete from cliente where idcliente =",$id;
+
+// igual ao gravar
+
+if(mysqli_query)
