@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function situacao(){
+        //variaveis local
+        var num1=0,num2=0, media =0;
+
+        num1 = window.document.formulario.nota1.value;
+        num2 = window.document.formulario.nota2.value;
+         //alert(" O valor da multiplicação é "+ produto);
+        media = p(parselfloat(num1) + parselfloat(num2))/2;
+        if(media >=7){
+            window.document.formulario.resultado.value = "aprovado";
+        }else if(media <4) {
+            window.document.formulario.resultado.value = "reprovado";
+        }else{
+            window.document.formulario.resultado.value = "recuperação";
+        }
+    }
+</script>
+<body>
+    <form name="Formulario">
+       <table border="2">
+        <tr>
+            <td>Número 1</td>
+            <td><input type="text" name="nota1" id=""></td>     
+        </tr>
+
+        <tr>
+            <td>Número 2</td>
+            <td><input type="text" name="nota2" id=""></td>
+        </tr>
+        <tr>
+
+            <td colspan="2" style="text-align: center ;">
+                <a href="#" onclick="mult();return false;">
+                    <button>Multiplicar</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                RESULTADO
+            </td>
+            <td>
+                <input type="text" name="resultado" id="">
+ 
+            </td>
+        </tr>
+    </table>   
+</form>
+</body>
+</html>
