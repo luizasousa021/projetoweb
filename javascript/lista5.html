@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        function marior() {
+        function verificar()
             var n1 = window.document,form1.n1.value;
             n1 = parseFloat(n1);
             var n2 = window.document,form1.n2.value;
@@ -21,25 +21,14 @@
             } else if (n2 > n1 && n2 > n3) {
                 alert("SEGUNDO é maior" +n3);
             } else { alert("TERCEIRO é maior"+n3);
-
                    }
-            }
-</script>
-</body> 
-    <form name="form1" action="">
-        Digite o primeiro número :
-        <input type="text" name="" id="n1">
-        <br/><br/><br/><br/>
-        Digite o segundo número :
-        <input type="text" name="" id="n2">
-        <br/><br/><br/><br/>
-        Digite o terceiro número :
-        <input type="text" name="" id="n3">
-        <br/><br/><br/><br/>
-        <input type="submit"
-         onclick="maior();return false;"
-         value="varificar o maior">
-    </form>
-</body>
+            if (n1 > n2 && n1 > n3) {
+                alert("PRIMEIRO é maior" + n1);
+            } else if (n2 > n1 && n2 > n3) {
+                alert("SEGUNDO é maior" +n3);
+            } else { alert("TERCEIRO é maior"+n3);
+                   }
+            
 
-</html>
+
+        

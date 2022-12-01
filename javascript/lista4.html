@@ -6,7 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<!-- 4. Faça um scrip que pede mais inteiro e armazene
+     eles em duas variaveis. Em seguida, troque o valor
+     das-->
+    <script>
+        function troca() {
+        var n1 = parseFloat(document.getElementById("n1").value);
+        var n1 = parseFloat(document.getElementById("n12").value);
+        var aux = n1;
+        alert("Primeiro Numero :" + n1 + "Segundo Numero :"+ n2);
+        n1 = n2;
+        n2 = aux;
+        alert("APÓS A TROCA primeiro numero :" + n1 + "Segundo Numero :"+ n2);
+    }
+    </script>
 <body>
-    
+    <form name="form1" action="">
+        Digite o primeiro número :
+        <input type="text" name="" id="n1">
+        <br/><br/><br/><br/>
+        Digite o segundo número :
+        <input type="text" name="" id="n2">
+        <br/><br/><br/><br/>
+
+        <input type="submit"
+         onclick="troca();return false;"
+         value="troca">
+
+    </form>
+       
 </body>
+
 </html>
