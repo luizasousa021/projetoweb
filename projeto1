@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: yellowgreen;
+
+        }
+        header{
+            background: rebeccapurple;
+            color: aliceblue;
+        }
+        footer{
+            background: grey;
+            bottom: 0;
+        }
+        header,
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 12vh;
+            position: absolute;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>
