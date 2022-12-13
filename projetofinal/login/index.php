@@ -15,8 +15,8 @@
            <input  type =" submit " value =" Logar " /><br/>
         </forma>
         <?php
-        if (isset( $ _GET [" mensagem "])) {
-           echo  $ _GET [" msg "];
+        if (isset( $_GET [" mensagem "])) {
+           echo  $_GET [" msg "];
         }
 
         ?>

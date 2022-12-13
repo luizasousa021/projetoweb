@@ -15,7 +15,7 @@ $mensagem = $_GET["mensagem"];
 // 2- conectar a base de dados
 // (servidor,usuario,senha,banco);
 
-$con = mysqli_connect("localhost","root","","projeto1");
+$con = mysqli_connect("localhost","root","","projetofinal");
 
 // 3- montar a instrução para gravar
 
@@ -36,7 +36,3 @@ echo"<script> alert('".$msg."');
          location.href='index.html';
 </script>";
 ?>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms

@@ -1,10 +1,10 @@
 mysql -u root
 
 #criar base de dados
-create database projeto1;
+create database projetofinal;
 
 #conectar uma base de dados
-use projeto1;
+use projetofinal;
 
 #criar uma tabela
 create table contato(
